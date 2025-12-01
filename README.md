@@ -1,1 +1,1 @@
-head tracker project
+This is my Arduino laser head tracker. It uses a Python script with OpenCV and CVZone to track my face through my webcam, then sends the X/Y coordinates to an Arduino Uno that moves two MG996R servos. I mounted a laser on the servos so the beam follows my face in real time. I built this to learn how software can directly control hardware. I built it to explore how computer vision can drive simple robotics without using full machine learning.
